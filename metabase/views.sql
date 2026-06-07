@@ -1,0 +1,15 @@
+-- The canonical view definitions live in the Alembic migration
+-- (backend/migrations/versions/0001_initial_schema.py) so that the schema is
+-- versioned with the rest of the database state.
+--
+-- This file is kept as documentation of which views Metabase consumes:
+--   public_safe.daily_revenue
+--   public_safe.live_payment_matching
+--   public_safe.shift_summary
+--   public_safe.inventory_loss_view
+--   public_safe.employee_accountability
+--   public_safe.store_health_score
+--
+-- After running `alembic upgrade head`, you can verify with:
+--   docker compose exec postgres psql -U ot_admin -d project_ot \
+--     -c "\dv public_safe.*"

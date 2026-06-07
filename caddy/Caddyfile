@@ -1,0 +1,23 @@
+# Caddy reverse proxy — for cloud deployment (M7).
+# Local dev binds services to 127.0.0.1 directly, so Caddy is not started for the M1 demo.
+# Uncomment and adjust hostnames once you provision your domain.
+
+# dashboard.{$DOMAIN} {
+#     reverse_proxy metabase:3000
+# }
+#
+# api.{$DOMAIN} {
+#     reverse_proxy backend:8000
+# }
+#
+# app.{$DOMAIN} {
+#     root * /srv/pwa
+#     file_server
+#     encode gzip
+#     try_files {path} /index.html
+# }
+#
+# automation.{$DOMAIN} {
+#     reverse_proxy n8n:5678
+#     # Restrict to Tailscale CIDR or basic_auth in production
+# }
