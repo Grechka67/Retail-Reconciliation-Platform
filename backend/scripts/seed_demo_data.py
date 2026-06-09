@@ -378,7 +378,7 @@ def main():
                         shift_id=shift.id, created_at=shift.actual_end,
                     ))
 
-        # Plant inventory shrinkage: 4 vape carts disappeared during day 25
+        # Plant inventory shrinkage: 4 Laundry Detergents disappeared during day 25
         if not shrinkage_planted:
             shrink_time = start_date + timedelta(days=25, hours=22)
             session.add(InventoryMovement(

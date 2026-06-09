@@ -186,6 +186,6 @@ dashboard, the alert feed, API-key auth, and the full synthetic demo.
 
 ## License
 
-No license yet — all rights reserved. Add a license before reuse.
+MIT — see [LICENSE](LICENSE).
 
 See `docs/RUNBOOK.md` for operations and `docs/DEMO_SCRIPT.md` for a guided walkthrough.
