@@ -161,7 +161,7 @@ def main():
 
         # ----- 30 days of shifts + sales -----
         unmatched_planted = 0
-        unmatched_target = 5
+        unmatched_target = 4
         cash_short_planted = 0
         cash_short_target = 2
         shrinkage_planted = False
