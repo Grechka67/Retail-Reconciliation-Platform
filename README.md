@@ -6,33 +6,9 @@
 that reconciles every money and stock movement into **one source of truth** and automatically flags
 what doesn't add up.
 
-## Screenshots
+![ShopOS dashboard — store-health score, revenue trend, and transfer match rate](docs/img/dashboard.png)
 
-### Live dashboard — store health, revenue trend, 30 days of data
-![Overview — store-health score 95/100, ฿247K revenue, 98% transfer match rate, 30-day trend](docs/img/dashboard.png)
-
-### Alerts feed — anomalies surfaced automatically
-![Alerts tab — 23 active alerts: unmatched transfers, cash shortages, void bursts](docs/img/alerts.png)
-
-### Money tab — every transfer payment reconciled
-![Money tab — transfer payments sorted by status: missing, duplicate, matched](docs/img/money.png)
-
-### Stock tab — inventory shrinkage detected
-![Stock tab — Laundry Detergent showing 4 units missing vs sold](docs/img/stock.png)
-
-### Team tab — shift history and staff accountability
-![Team tab — recent shifts with cash-difference column, team sorted by alert count](docs/img/team.png)
-
-### API explorer — fully documented REST API
-![OpenAPI docs — ingestion, admin, dashboard, and reconciliation endpoints](docs/img/api_docs.png)
-
-### n8n — alert automation workflow
-![n8n workflow: Receive ShopOS Alert → Format Message → Send LINE Notify](docs/img/n8n.png)
-
-### Metabase — auto-generated BI dashboard on ShopOS data
-![Metabase x-ray: Daily Revenue across time with related views (Inventory Loss, Employee Accountability, Store Health Score)](docs/img/metabase.png)
-
----
+![Alerts feed — unmatched transfers, cash shortages, and void bursts surfaced automatically](docs/img/alerts.png)
 
 A small shop's data is scattered across disconnected tools: sales sit in the POS, bank-transfer
 payments arrive as phone SMS, the cash drawer is counted by hand, stock is on a spreadsheet, and
