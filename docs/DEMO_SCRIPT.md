@@ -56,7 +56,7 @@ Walk through what the dashboards reveal:
 
 | Anomaly | Where it shows |
 |---|---|
-| 5 unmatched transfers (last week of data, evening shifts) | `live_payment_matching` — red rows with status `UNMATCHED` |
+| 4 unmatched transfers (last week of data, evening shifts) | `live_payment_matching` — red rows with status `UNMATCHED` |
 | 2 cash shortages > 500 THB | `shift_summary` — `cash_discrepancy_thb` column |
 | 4 Laundry Detergents missing on day 25 | `inventory_loss_view` — `shrinkage_units` for `HH-DETERG` |
 | 6 voids by one employee in 30 min | `employee_accountability` — `anomaly_alerts` count |

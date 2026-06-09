@@ -4,7 +4,7 @@ Run inside the backend container:
     docker compose exec backend python scripts/seed_demo_data.py
 
 Planted anomalies (so the demo dashboards have something to show):
-    - 5 unmatched transfers   → UNMATCHED_TRANSFER alerts
+    - 4 unmatched transfers   → UNMATCHED_TRANSFER alerts
     - 2 cash shortages > 500  → CASH_DISCREPANCY alerts
     - 1 inventory shrinkage   → INVENTORY_SHRINKAGE alerts
     - 1 void burst by an employee
